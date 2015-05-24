@@ -1,0 +1,11 @@
+GCT-PH1
+Population, Housing Units, Area, and Density:  2010 - County -- County Subdivision and Place
+
+NOTE: For information on confidentiality protection, nonsampling error, and definitions, see  http://www.census.gov/prod/cen2010/doc/sf1.pdf.
+
+X Not applicable.
+
+Source: U.S. Census Bureau, 2010 Census.
+
+Census 2010 Summary File 1, Geographic Header Record G001.
+

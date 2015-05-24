@@ -5,9 +5,9 @@ import json
 
 data = json.load(open('/Users/dtasse/src/city_blocks/rhino_data.json'))
 for nghd in data:
-    if nghd['name'] != 'Central Oakland':
-        continue
-    # print nghd['name']
+    # if nghd['name'] != 'Central Oakland':
+    #     continue
+    # uncomment the above to try out one nghd
     border_points = nghd['border']
     curve = rs.AddPolyline(border_points)
     surface = rs.AddPlanarSrf(curve)
@@ -19,7 +19,6 @@ for nghd in data:
         p0 = pipe[0]
         p1 = pipe[1]
         pipe_line = rs.AddLine((p0[0], p0[1], -.5), (p1[0], p1[1], 3.5))
-        # pipes.append(rs.AddPipe(pipe_line, 0, 0.5, cap=2))
         pipe = rs.AddPipe(pipe_line, 0, 0.5, cap=2)
         rs.DeleteObject(pipe_line)
         new_solid = None

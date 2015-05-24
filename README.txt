@@ -1,3 +1,6 @@
+A little project to create blocks that are just 3d pittsburgh neighborhoods,
+with holes in the ones that are less dense.
+
 Pittsburgh_Neighborhoods contains info about Pittsburgh neighborhoods.
 neighborhoods. Original shapefiles from http://pittsburghpa.gov/dcp/gis/gis-data
 
@@ -10,3 +13,4 @@ coordinate mumbo jumbo into regular old lat/lon - I think it’s the same as -t_
 nghds_dwelling_densities.csv computed by get_dwelling_densities.py in this repo:
 https://github.com/dantasse/nghd_info
 
+DEC_10_SF1_GCTPH1.CY10 is some data from the city about the number of dwellings in different places.
